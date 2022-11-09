@@ -137,14 +137,16 @@
   padding-bottom: 28px;
   text-align: center;
 }
-.sec2 .container > h2 {
-  margin-bottom: 50px;
-}
+
 .col {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin-bottom: 50px;
+  padding: 50px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.col:last-child {
+  border: none;
 }
 .row {
   width: 50%;
@@ -152,4 +154,8 @@
 }
 .row ul {
   margin-left: 20px;
+}
+#intro .sec2 ul {
+  list-style: disc;
+  list-style-position: inside;
 }
