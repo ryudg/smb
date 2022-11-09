@@ -15,7 +15,6 @@ font-family: 'Noto Sans KR', sans-serif;
   --text-light: #666;
   --white: #fff;
 }
-
 body {
   font-family: "Noto Sans KR", sans-serif;
   font-size: 15px;
@@ -42,6 +41,14 @@ a {
 p {
   line-height: 26px;
 }
+table,
+th,
+td {
+  border-collapse: collapse;
+  border-style: none;
+  padding: 1em;
+}
+
 .container {
   max-width: 1440px;
   /* outline: 2px solid #333; */
