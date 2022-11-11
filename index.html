@@ -5,7 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>학과소개</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- pc css -->
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+      media="screen and (min-width:767px)"
+    />
+    <!-- moble css -->
+    <link
+      rel="stylesheet"
+      href="./css/mobile.css"
+      media="screen and (max-width:766px)"
+    />
     <!-- 제이쿼리 라이브러리 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- 내 자바스크립트 -->
@@ -71,7 +82,7 @@
           </ul>
         </nav>
         <!-- 토글버튼 -->
-        <a href="#site-map-menu" id="btn-toggle">
+        <a href="javascript:void(0);" id="btn-toggle">
           <img src="./images/bx_menu-alt-right.svg" alt="toggle sitemap" />
         </a>
       </div>
@@ -90,7 +101,10 @@
         <nav class="site-menu">
           <ul class="depth1">
             <li>
-              <a href="./pages/about.html">학과소개</a>
+              <a href="./pages/about.html"
+                >학과소개
+                <span><img src="./images/bottom-arrow.png" alt="" /></span>
+              </a>
               <ul class="depth2">
                 <li>
                   <a href="./pages/about.html">학과소개</a>
@@ -102,13 +116,19 @@
               </ul>
             </li>
             <li>
-              <a href="#">교수진</a>
+              <a href="#"
+                >교수진
+                <span><img src="./images/bottom-arrow.png" alt="" /></span
+              ></a>
               <ul class="depth2">
                 <li><a href="#">교수진</a></li>
               </ul>
             </li>
             <li>
-              <a href="./pages/itro.html">무용단 소개</a>
+              <a href="./pages/itro.html"
+                >무용단 소개
+                <span><img src="./images/bottom-arrow.png" alt="" /></span
+              ></a>
               <ul class="depth2">
                 <li><a href="#">한국무용</a></li>
                 <li><a href="#">현대무용</a></li>
@@ -116,7 +136,10 @@
               </ul>
             </li>
             <li>
-              <a href="#">공지사항</a>
+              <a href="#"
+                >공지사항
+                <span><img src="./images/bottom-arrow.png" alt="" /></span
+              ></a>
               <ul class="depth2">
                 <li><a href="#">공지사항</a></li>
                 <li><a href="#">열림마당</a></li>
@@ -124,13 +147,19 @@
               </ul>
             </li>
             <li>
-              <a href="#">학과활동</a>
+              <a href="#"
+                >학과활동
+                <span><img src="./images/bottom-arrow.png" alt="" /></span
+              ></a>
               <ul class="depth2">
                 <li><a href="#">학과활동</a></li>
               </ul>
             </li>
             <li>
-              <a href="#">무용과 행사</a>
+              <a href="#"
+                >무용과 행사
+                <span><img src="./images/bottom-arrow.png" alt="" /></span
+              ></a>
               <ul class="depth2">
                 <li><a href="#">창작발표회</a></li>
                 <li><a href="#">졸업발표회</a></li>
