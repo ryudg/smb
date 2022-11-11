@@ -5,7 +5,7 @@
 /* css에서 style 문서 불러오기 */
 @import "./reset.css";
 @import "./sub.css";
-
+@import "./sub3-1.css";
 /*  
 font-family: 'Crimson Text', serif;
 font-family: 'Noto Sans KR', sans-serif;
@@ -151,36 +151,36 @@ td {
 }
 
 /* Introduction */
-#intro .container {
+#introduce .container {
   padding: 50px 20px;
   /* outline: 1px solid #000; */
 }
 
-#intro .intro-list {
+#introduce .intro-list {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
 
-#intro .intro-list > li {
+#introduce .intro-list > li {
   /* outline: 2px solid red; */
   /* (너비 - 칼럼여백(칼럼수 - 1)) / 칼럼수 */
   width: calc((100% - 60px) / 4);
 }
 
-#intro .intro-list > li img {
+#introduce .intro-list > li img {
   width: 100%;
   margin-bottom: 15px;
 }
 
 /* 여백, 정렬  */
-#intro .intro-list h2 {
+#introduce .intro-list h2 {
   margin-bottom: 10px;
 }
-#intro img {
+#introduce img {
   transition: 0.5s;
 }
-#intro img:hover {
+#introduce img:hover {
   transform: scale(1.05);
 }
 

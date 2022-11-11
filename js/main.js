@@ -76,3 +76,14 @@ $(function () {
     });
   }, 5000);
 });
+
+// gnb 1단계 a기본 이벤트 제거
+$(function () {
+  let s = $("#site-map-menu .site-menu .depth1 > li > a");
+  s.on("click", function (event) {
+    event.preventDefault();
+    $(this).next().toggleClass("show");
+    // 제외하고
+    s.not($(this)).next().removeClass("show");
+  });
+});

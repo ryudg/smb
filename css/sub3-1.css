@@ -31,6 +31,10 @@
 .row ul {
   margin-left: 20px;
 }
+#intro .sec1,
+#intro .sec2 {
+  margin: 20px;
+}
 #intro .sec2 ul {
   list-style: disc;
   list-style-position: inside;
